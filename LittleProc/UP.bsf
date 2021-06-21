@@ -1,0 +1,204 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 240 368)
+	(text "UP" (rect 5 0 20 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 336 25 348)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "asynResetn" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "asynResetn" (rect 21 27 89 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "ck" (rect 0 0 12 14)(font "Arial" (font_size 8)))
+		(text "ck" (rect 21 43 33 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "R1load" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "R1load" (rect 21 59 59 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "R2load" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "R2load" (rect 21 75 59 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "IRload" (rect 0 0 34 14)(font "Arial" (font_size 8)))
+		(text "IRload" (rect 21 91 55 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "PCload" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "PCload" (rect 21 107 59 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "MARload" (rect 0 0 50 14)(font "Arial" (font_size 8)))
+		(text "MARload" (rect 21 123 71 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "MDRload" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "MDRload" (rect 21 139 70 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "ACCload" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "ACCload" (rect 21 155 70 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "PCinit" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "PCinit" (rect 21 171 51 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "R1out" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "R1out" (rect 21 187 54 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "R2out" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "R2out" (rect 21 203 54 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 1))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "IRout" (rect 0 0 28 14)(font "Arial" (font_size 8)))
+		(text "IRout" (rect 21 219 49 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "PCout" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "PCout" (rect 21 235 54 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "MARout" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "MARout" (rect 21 251 65 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "MDRout" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "MDRout" (rect 21 267 64 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 1))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "ALUcode[2..0]" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "ALUcode[2..0]" (rect 21 283 102 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "MEM[11..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "MEM[11..0]" (rect 21 299 82 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "MDRmem" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "MDRmem" (rect 21 315 72 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320)(line_width 1))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "carry" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "carry" (rect 173 27 203 41)(font "Arial" (font_size 8)))
+		(line (pt 224 32)(pt 208 32)(line_width 1))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "zero" (rect 0 0 25 14)(font "Arial" (font_size 8)))
+		(text "zero" (rect 178 43 203 57)(font "Arial" (font_size 8)))
+		(line (pt 224 48)(pt 208 48)(line_width 1))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "negative" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "negative" (rect 155 59 203 73)(font "Arial" (font_size 8)))
+		(line (pt 224 64)(pt 208 64)(line_width 1))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "IRdata[11..8]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "IRdata[11..8]" (rect 133 75 203 89)(font "Arial" (font_size 8)))
+		(line (pt 224 80)(pt 208 80)(line_width 3))
+	)
+	(port
+		(pt 224 96)
+		(output)
+		(text "MARdata[11..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "MARdata[11..0]" (rect 116 91 203 105)(font "Arial" (font_size 8)))
+		(line (pt 224 96)(pt 208 96)(line_width 3))
+	)
+	(port
+		(pt 224 112)
+		(output)
+		(text "MDRdata[11..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "MDRdata[11..0]" (rect 117 107 203 121)(font "Arial" (font_size 8)))
+		(line (pt 224 112)(pt 208 112)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 208 336)(line_width 1))
+	)
+)
