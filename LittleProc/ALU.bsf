@@ -1,0 +1,91 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 64 64 304 208)
+	(text "ALU" (rect 112 64 146 76)(font "Arial" ))
+	(text "inst" (rect 40 128 57 140)(font "Arial" ))
+	(port
+		(pt 64 0)
+		(input)
+		(text "A[11..0]" (rect -64 0 -26 12)(font "Arial" ))
+		(text "A[11..0]" (rect 56 24 68 62)(font "Arial" )(vertical))
+		(line (pt 64 0)(pt 64 16)(line_width 3))
+	)
+	(port
+		(pt 184 0)
+		(input)
+		(text "B[11..0]" (rect -64 0 -26 12)(font "Arial" ))
+		(text "B[11..0]" (rect 176 24 188 62)(font "Arial" )(vertical))
+		(line (pt 184 0)(pt 184 16)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "ck" (rect 0 0 11 12)(font "Arial" ))
+		(text "ck" (rect 21 107 32 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "sel[2..0]" (rect 0 0 40 12)(font "Arial" ))
+		(text "sel[2..0]" (rect 21 91 61 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 112 144)
+		(output)
+		(text "C[11..0]" (rect 152 -80 192 -68)(font "Arial" ))
+		(text "C[11..0]" (rect 104 80 116 120)(font "Arial" )(vertical))
+		(line (pt 112 144)(pt 112 128)(line_width 3))
+	)
+	(port
+		(pt 152 144)
+		(output)
+		(text "carry" (rect 152 -80 177 -68)(font "Arial" ))
+		(text "carry" (rect 144 95 156 120)(font "Arial" )(vertical))
+		(line (pt 152 144)(pt 152 128)(line_width 1))
+	)
+	(port
+		(pt 144 144)
+		(output)
+		(text "zero" (rect 152 -80 172 -68)(font "Arial" ))
+		(text "zero" (rect 136 100 148 120)(font "Arial" )(vertical))
+		(line (pt 144 144)(pt 144 128)(line_width 1))
+	)
+	(port
+		(pt 136 144)
+		(output)
+		(text "negative" (rect 152 -80 194 -68)(font "Arial" ))
+		(text "negative" (rect 128 78 140 120)(font "Arial" )(vertical))
+		(line (pt 136 144)(pt 136 128)(line_width 1))
+	)
+	(drawing
+		(line (pt 160 144)(pt 232 0)(line_width 1))
+		(line (pt 152 0)(pt 120 56)(line_width 1))
+		(line (pt 88 144)(pt 8 0)(line_width 1))
+		(line (pt 88 144)(pt 160 144)(line_width 1))
+		(line (pt 88 0)(pt 120 56)(line_width 1))
+		(line (pt 8 0)(pt 88 0)(line_width 1))
+		(line (pt 152 0)(pt 232 0)(line_width 1))
+	)
+)
