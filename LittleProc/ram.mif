@@ -1,0 +1,25 @@
+DEPTH = 256;         % Memory depth and width are required   %
+WIDTH = 12;          % Enter a decimal number        %
+ADDRESS_RADIX = DEC;    % Address and value radixes are required        %
+DATA_RADIX = HEX;       % Enter BIN, DEC, HEX, OCT, or UNS; unless      %
+                        % otherwise specified, radixes = HEX    %
+-- Specify values for addresses, which can be single address or range 
+CONTENT
+    BEGIN
+-- [0..F]  :       3FFF;   % Range--Every address from 0 to F = 3FFF       %
+--         6       :       F;      % Single address--Address 6 = F %
+--         8       :       F E 5;  % Range starting from specific address--        %       END ;   % Addr[8] = F, Addr[9] = E, Addr[A] = 5 %
+0        :       000;
+1        :       00F;       % 000000001111    LDR1 15    %
+2        :       110;       % 000100010000    LDR2 16    %
+3        :       200;       % 001000000000    ADD        %
+4        :       311;       % 001100010001    STR1 17    %
+5        :       111;       % 000100010001    LDR2 17    %
+6        :       800;       % 100000000000    END        %
+[7..14]  :       000; 
+15       :       001;       % A partir de aqui datos     %
+16       :       002;
+17       :       000;
+18       :       000;
+[19..255]:       000;
+END;
